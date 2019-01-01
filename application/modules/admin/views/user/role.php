@@ -30,6 +30,7 @@ if(is_root())
 	$form->setTable('user_role');
 	$form->addInput('id','hidden');
 	$form->addInput('title','plaintext');
+	$form->addInput('level','plaintext');
 	// $form->addInput('level','hidden');
 	$form->addInput('description','plaintext');
 	$form->setDelete(TRUE);
